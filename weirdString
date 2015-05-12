@@ -1,0 +1,16 @@
+str = "this is sooo weird";
+array = str.split("");
+newarray = [];
+
+for (var i=0; i < array.length; i++){
+    if (i % 2 === 0  ) {
+        console.log( array[i].toUpperCase() );
+        newarray.push( array[i].toUpperCase() );
+    }
+    else {
+        console.log( array[i] );
+        newarray.push( array[i]);
+    }
+}
+
+console.log( newarray.join(""));
