@@ -1,0 +1,2 @@
+str = "peter are you even reading this";
+reverseWords = str.split(" ").reverse().join(' ');
