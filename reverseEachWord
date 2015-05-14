@@ -1,12 +1,6 @@
-str = "peter are you even reading this";
-array = str.split(' ');
-newarray = [];
-
-for (var i=0; i < array.length; i++){
-    {
-        console.log( array[i].split("").reverse().join("") );
-        newarray.push( array[i].split("").reverse().join("") );
-    }
+function reverseEachWord(str) {
+     return str.split("").reverse().join('');
 }
 
-console.log( newarray.join(" ") );
+console.log(reverseEachWord("peter hi there"));
+
