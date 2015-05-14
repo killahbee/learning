@@ -1,2 +1,5 @@
-str = "peter are you even reading this";
-reverseWords = str.split(" ").reverse().join(' ');
+function reverseWords(str) {
+     return str.split(" ").reverse().join(' ');
+}
+
+console.log(reverseWords("peter hi there"));
