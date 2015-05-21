@@ -8,12 +8,12 @@ body {
 .whitebox {
   margin: 0 auto;
   width:80%;
-  background: #C8C8C8;
-  height:700px;
+  background: #ffffff;
+  height:800px;
 }
 
 h1 {
-  color: white;
+  color: blue;
   font-size: 55px;
   text-align: center;
   margin-top: 100px;
@@ -23,15 +23,15 @@ h1 {
 .fontsize {  
   font-size: 50px;
   line-height:70px;
-  color: #fffff;
+  color: hotpink;
 }
 
 
 .btn {
-  color: white;
+  color: red;
   font-size: 24px;
   font-weight: bold;
-  border: 3px solid white;
+  border: 3px solid red;
   width: 100px;
   text-align: right;
   vertical-align: middle;
