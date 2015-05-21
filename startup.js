@@ -17,7 +17,7 @@ var ideas = [
 
 var forideas = [
    'Ironman',
-   'The Incredible Huld',
+   'The Incredible Hulk',
    'Inspector gadget',
    'Spiderman',
 ];
@@ -36,13 +36,14 @@ refresh.addEventListener('click', function(){
 	//pick idea randomly
 	var idea1 = ideas[Math.floor(Math.random()*ideas.length)];
 
-	document.body.children[2].textContent = idea1;
+	document.getElementById('js-ideas').textContent = idea1;
 
 
    //pick  second idea randomly
    var idea2 = forideas[Math.floor(Math.random()*forideas.length)];
 
-   document.body.children[4].textContent = idea2;
+   document.getElementById('js-forideas').textContent = idea2;
 
 }
+	)
 	)
